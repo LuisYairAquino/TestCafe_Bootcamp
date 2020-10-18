@@ -3,6 +3,7 @@
 <p align="center">
     <a href="https://devexpress.github.io/testcafe">
         <img src="https://raw.githubusercontent.com/DevExpress/testcafe/master/media/testcafe-logo.svg?sanitize=true" alt="testcafe" />
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fqaminds.com%2F&psig=AOvVaw0WVtjI8iKWIEI_85BF67A0&ust=1603135160221000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKC5h4HuvuwCFQAAAAAdAAAAABAD" alt="qaminds" />
     </a>
 </p>
 
@@ -55,7 +56,7 @@ fixture `Getting Started`// declare the fixture
 //then create a test and place your code there
 test('My first test', async t => {
     await t
-        .typeText('#developer-name', 'Luis Aquino
+        .typeText('#developer-name', 'Luis Aquino')
         .click('#submit-button')
  
         // Use the assertion to check if the actual header text is equal to the expected one
@@ -71,4 +72,8 @@ Call the following command in a command shell.
 testcafe chrome test1.js
 ```
 
-![Test Report](C:\Users\luisy\Desktop\testcafe.png)
+![Test Report](docs/articles/images/report.png)
+
+## Thanks to QA Minds and Testcafe
+
+I'm greateful with QA Minds for this bootcamp and with Testcafe for all the information and documentation.
