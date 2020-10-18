@@ -3,7 +3,7 @@
 <p align="center">
     <a href="https://devexpress.github.io/testcafe">
         <img src="https://raw.githubusercontent.com/DevExpress/testcafe/master/media/testcafe-logo.svg?sanitize=true" alt="testcafe" />
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fqaminds.com%2F&psig=AOvVaw0WVtjI8iKWIEI_85BF67A0&ust=1603135160221000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKC5h4HuvuwCFQAAAAAdAAAAABAD" alt="qaminds" />
+        <img src="https://qaminds.com/wp-content/uploads/2017/10/QAMIND.png" alt="qaminds" />
     </a>
 </p>
 
@@ -71,8 +71,6 @@ Call the following command in a command shell.
 ```sh
 testcafe chrome test1.js
 ```
-
-![Test Report](docs/articles/images/report.png)
 
 ## Thanks to QA Minds and Testcafe
 
