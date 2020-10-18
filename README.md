@@ -3,7 +3,7 @@
 <p align="center">
     <a href="https://devexpress.github.io/testcafe">
         <img src="https://raw.githubusercontent.com/DevExpress/testcafe/master/media/testcafe-logo.svg?sanitize=true" alt="testcafe" />
-        <img src="https://qaminds.com/wp-content/uploads/2017/10/QAMIND.png" alt="qaminds" width="300" height="200"/>
+        <img src="https://qaminds.com/wp-content/uploads/2017/10/Logo_QAmindsLAB2-360x235.png" alt="qaminds" width="300" height="300"/>
     </a>
 </p>
 
