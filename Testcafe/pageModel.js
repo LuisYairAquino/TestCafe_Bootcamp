@@ -23,6 +23,9 @@ class Page {
         //Checboxs Hijos
         //this.checkbox41 = Selector('#checkboxes > input[type=checkbox]:nth-child(1)');
         this.checkbox42 = Selector('#checkboxes > input[type=checkbox]:nth-child(3)');
+
+        //Homework
+        this.internalError = Selector('h1').withText('Internal Server Error')
     
     }
 }
