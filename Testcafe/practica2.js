@@ -9,12 +9,15 @@ test("Probar dar clic en un enlace", async (t) => {
     await t
     .click(page.link2)
     .wait(3000)
+
+    const abTextElement = await abText()
+    console.log(abTextElement.innerText)
     
     await t
-        if (page.text21.innerText == "A/B Test Control" || "A/B Test Variation 1" || "A/B Test Variation" ){
-            console.log ("Pasa prueba".green)
+        if (abTextElementinnerText == "Test Control" || abTextElement == "A/B Test Variation 1" || abTextElement == "A/B Test Variation" ){
+            await t.expect(true).ok("Pasa prueba".green)
         } else {
-            console.log ("No pasa".red)
+            await t.expect(true).ok("No pasa".red)
         }
     
 });
