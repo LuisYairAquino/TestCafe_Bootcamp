@@ -10,8 +10,8 @@ fixture("Práctica 4")
         await t
             .click(page.baseCheckbox.nth(1))
     
+        await t.expect(page.baseCheckbox.nth(0).checked).notOk()
         await t.expect(page.baseCheckbox.nth(1).checked).notOk()
-        await t.expect(page.baseCheckbox.nth(3).checked).notOk()
         //await t.expect(page.checkbox42.checked).notOk()
         
     
