@@ -39,7 +39,34 @@ class Page {
         this.removeBtn62 = Selector('#elements > button');
         this.removeBtn63 = Selector('#elements > button:nth-child(2)');
         this.removeBtn64 = Selector('#elements > button:nth-child(3)');
-    
+
+        //Práctica 7
+        this.inputFirstName71 = Selector('#first-name');
+        this.inputLastName72 = Selector('#last-name');
+        this.inputJob73 = Selector('#job-title');
+        this.radioBtn74 = Selector('#radio-button-1');
+        this.radioBtn75 = Selector('#radio-button-2');
+        this.radioBt76 = Selector('#radio-button-3');
+        this.checkBox77 = Selector('#checkbox-1');
+        this.checkBox78 = Selector('#checkbox-2');
+        this.checkBox79 = Selector('#checkbox-3');
+        this.selectExp80 = Selector('#select-menu');
+        this.optSelect = Selector('#select-menu > option:nth-child(2)');
+        this.dateSelect = Selector('#datepicker');
+        this.submitBtn = Selector('a').withText('Submit');
+        this.thanksTitle = Selector('h1').withText('Thanks for submitting your form');
+        this.successTitle = Selector('body > div > div');
+
+        //Práctica 8
+        this.linkKeyPress = Selector('a').withText('Key Presses');
+        this.text81 = Selector('#result');
+
+        //Práctica 9
+
+
+        //Práctica 10
+        this.linkContext = Selector('a').withText('Context Menu');
+        this.hotSpot101 = Selector('#hot-spot')
     }
 }
 
