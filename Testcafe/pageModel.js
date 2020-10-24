@@ -67,6 +67,10 @@ class Page {
         //Práctica 10
         this.linkContext = Selector('a').withText('Context Menu');
         this.hotSpot101 = Selector('#hot-spot')
+
+        //Práctica 11
+        this.sliderLink = Selector('a').withText('Horizontal Slider')
+        this.range = Selector('#content > div > div > input[type=range]')
     }
 }
 
