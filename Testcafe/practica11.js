@@ -14,3 +14,20 @@ test('Probar un slider horizontal', async t =>{
         
     
 });
+
+test('Probar un slider horizontal con teclado', async t =>{
+    await t 
+        .maximizeWindow()
+        .click(page.sliderLink)
+    await t
+        console.log(page.range)
+    await t
+        .pressKey('tab', {speed:0.01})
+        .pressKey('tab')
+        .pressKey('up', {speed:0.01})
+        .wait(1000)
+        .pressKey('up', {speed:0.01})
+        .wait(1000)
+        .pressKey('up', {speed:0.01})
+        .expect(page.range.value).eql('1.5')
+});

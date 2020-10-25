@@ -61,7 +61,12 @@ class Page {
         this.linkKeyPress = Selector('a').withText('Key Presses');
         this.text81 = Selector('#result');
 
-        //Práctica 9
+        //Práctica 9 Tarea Login
+        this.userName_input = Selector('#username')
+        this.pwd_input = Selector('#password')
+        this.login_btn = Selector('#login > button')
+        this.success_page = Selector('h4').withText('Welcome to the Secure Area. When you are done click logout below.')
+        this.invalidLogin_alert = Selector('#flash')
 
 
         //Práctica 10
