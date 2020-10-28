@@ -14,6 +14,7 @@ class Page{
         this.firstName_Address = Selector('#firstname')
         this.lastName_Address = Selector('#lastname')
         this.address = Selector('#address1')
+        this.city = Selector('#city')
 
 
     }
