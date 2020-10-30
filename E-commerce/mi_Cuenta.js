@@ -14,6 +14,9 @@ test('Validar el crear una cuenta', async t =>{
     await t
         .typeText(page.email_input, data.email)
         .click(page.createAccount_btn)
+        .takeScreenshot("Home Page")
+        .takeElementScreenshot(page.email_input, data.email)
+        //.debug
 
     await t
         .expect(page.email_form.value).contains(data.email)
