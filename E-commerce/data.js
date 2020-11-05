@@ -6,7 +6,9 @@ let data = {
     lastname: 'Aquino',
     password: '88888',
     pbox: 'PO Box 7687',
-    city: 'Los Angeles'
+    city: 'Los Angeles',
+    postalCode: '12345',
+    mobilePhone: '1234567890'
 }
 
 export {data}
